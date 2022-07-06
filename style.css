@@ -1,4 +1,80 @@
 body{
-    /* font-family: 'Poppins', sans-serif; */
-    font-family: 'Signika Negative', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+
+header.bg-color{
+    background-color: rgb(228, 228, 228);
+    color:rgb(87, 83, 83);
+}
+.header-div-tel-email{
+    border: 2px solid black;
+    display: flex;
+    height: 50px;
+}
+.header-child-div p{
+    border: 2px solid black;
+    /* display:inline; */
+    float: left;
+}
+.header-child-div img{
+    border: 2px solid black;
+    /* display:inline; */
+    float: left;
+    width:20px;
+    margin-top: 10%;
+}
+.header-child-div{
+    border: 2px solid black;
+    /* display: inline; */
+    float: left;
+    margin-left: 20%;
+}
+
+.sec1-logo-heading{
+    border: 2px solid black;
+    display:flex;
+    height: 150px;
+    /* margin-bottom: 110px; */
+}
+.sec1-logo-heading img{
+    border: 2px solid black;
+    margin-left: 12%;
+}
+.sec1-logo-heading h1{
+    border: 2px solid black;
+    width:35%;
+    height:80px;
+    margin-top: 3%;
+    margin-left: 5%;
+    font-size: 60px;
+}
+.button-style{
+    border: 2px solid black;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(197, 128, 0),rgb(235, 184, 0));
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(71, 66, 66);
+    padding: 7px 30px;
+    border-radius: 5px;
+    margin: 5% 8%;
+}
+
+.sec2-intro-image{
+    border: 2px solid black;
+    background-image: url(/images/donation13.jpg);
+    color:white;
+    height: 500px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec2-intro-image h1{
+    border: 2px solid white;
+    font-size: 70px;
+}
+.sec2-intro-image p{
+    border: 2px solid white;
 }
