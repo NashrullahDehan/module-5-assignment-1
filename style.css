@@ -241,3 +241,59 @@ margin-bottom: 0;
     width:100%;
 }
 
+.sec6-design{
+    border: 2px solid white;
+    margin-top: 85px;
+    height: 500px;
+}
+
+.sec6-div{
+    display: flex;
+    height: 220px;
+    text-align: center;
+    background: lightgoldenrodyellow;
+    height: 200px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.sec6-form{
+    display: inline-block;
+    justify-content: center;
+}
+
+.sec6-child-div{
+    width:100%;
+    margin-left: 75%;
+    margin-top: 70px;
+}
+.sec6-input{
+    margin-right: 0;
+    margin-top: 0;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.button-style4{
+    background-image: linear-gradient(rgb(197, 128, 0),rgb(235, 184, 0));
+    border-color:lightgoldenrodyellow;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(187, 186, 186);
+    padding: 9px 30px;
+    border-radius: 5px;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+footer{
+    background-color: rgb(41, 40, 40);
+    color: rgb(167, 167, 167);
+    text-align: center;
+    height: 100px;
+    padding: 15px;
+}
+.foot p{
+    margin-top: 100px;
+}
